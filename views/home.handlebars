@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html" ; charset="utf-8"/>
+    <title> Seu Espaço | Antix </title>
+    <link rel="icon" href="/imagens/logo.png"/>
+    <link rel="stylesheet" href="/stylesheets/main.css" type="text/css" media="screen" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container2">
+    <div class="container">
+        <div class="header"></br>
+            <div class="pesquisa">
+                <form action="pesquisa" method="POST">
+                    <input onkeyup="search(this)" type="text" id="pesq" name="pesq" maxlength="200" size="80%"
+                           placeholder="Encontrar publicações sobre..." height="250px"/>
+                </form>
+            </div>
+        </div>
+        </br></br></br>
+        <section class="image-wrap" id="image-wrap">
+            {{#each postagens}}
+                <div class="exibepublicacao"></br>
+                    <div class="conteudo">
+                        {{this.texto}}
+                    </div>
+                    </br>
+                </div>
+            {{/each}}
+        </section>
+    </div>
+</div>
+</body>
+</html>

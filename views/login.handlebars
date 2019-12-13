@@ -1,0 +1,50 @@
+{{#each erros}}
+    <div class="alert alert-danger">{{texto}}</div>
+{{else}}
+{{/each}}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8"/>
+    <title> Login de Cliente </title>
+    <link rel="icon" href="images/icon.png"/>
+    <link rel="stylesheet" href="/stylesheets/main.css" type="text/css" media="screen" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body></br>
+<div id="container2">
+    <div id="paglogin">
+        <div class="container">
+            <div id="paglogin1"></br>
+                <h2> NOVO POR AQUI? </h2></br>
+                <h6>Cadastre-se com segurança!</br></br></br>Mais agilidade para finalizar uma compra</br>Salves os seus
+                    endereços de entrega</br>Acompanhe os status dos seus pedidos</h6>
+                </br></br>
+                <a href="cadastro"><input type="submit" value="CRIAR CONTA" class="botao"></a>
+                </br>
+            </div>
+            <div id="paglogin2"></br>
+                <h2> JÁ POSSUI UMA CONTA? </h2>
+                <h6>Se você já possui uma conta, informe os dados de acesso.</h6>
+                <form action="login" method="POST">
+                    <h4>
+                        <label for="email">E-mail</label></br>
+                        <input type="email" id="email" name="email" maxlength="40" value=""/></br>
+                        <label for="senha">Senha</label></br>
+                        <input type="password" id="senha" name="senha" maxlength="8" value=""/>
+                    </h4>
+                    <h6><a href="">Esqueceu Sua Senha?</a></h6>
+                    <div>
+                        <button id="login-btn" class="botao">ENTRAR</button>
+                        <p><span id="login-msg"></span></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

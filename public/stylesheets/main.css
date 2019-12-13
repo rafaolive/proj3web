@@ -1,0 +1,608 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#container2{
+	font-family: Oswald, sans-serif;
+	color: #643636;
+	align-content: center;
+	text-align: center;
+}
+.botao{
+    width:90px;
+    height:40px;
+}
+
+
+/* TOPO */ 
+#container{
+	width: 100%;
+	margin: 0 auto;
+	height:100%;
+}
+
+#topo{	
+	width: 100%;	
+	margin: 0 auto;
+	height: 60px;
+	background: #f4ece1;
+}
+
+#menu-topo ul{
+	display: block;
+	clear: both;
+	float: left;
+	margin-top:-65px;
+	margin-left: 400px;
+}
+
+#menu-topo ul li{
+	float: left;
+}
+
+#menu-topo ul a {
+	display: block;
+	font-family: Oswald, sans-serif;
+	color: #643636;
+	font-size: 14px;
+	line-height: 60px;
+	text-decoration: none;
+	padding: 0px 10px;
+	letter-spacing: 0.5px;
+}
+
+#menu-topo ul a:hover {
+	text-decoration: underline;
+}
+
+.topo1{
+	float: left;
+	position: absolute;
+	left: 60px;
+	margin-top: 5px;
+}
+
+.topo4{
+	float:right;
+	position: absolute;
+	right: 40px;
+}
+
+.topo3{
+	float:right;
+	position: absolute;
+	right: 72px;
+	top: -1px;
+}
+
+.topo2{
+	float:right;
+	position: relative;
+    right: 105px;
+}
+
+/* PARTE DE TEXTO */
+#conteudo{
+	width: 93%;
+	margin: 0 auto;
+}
+
+p.roupas{
+	font-family: Monteserrat, Verdana, Ariel, sans-serif;
+	font-weight: lighter;
+	text-decoration: none;
+	color: #49494a;
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 15px;
+	margin-bottom: -15px;
+	padding-left: 10px;
+	}
+
+p.conteudo{
+	font-family: Monteserrat, Verdana, Ariel, sans-serif;
+	text-decoration: none;
+	color: #656262;
+	font-size: 11px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	margin-left: 10px;
+	margin-right: 2px;
+	line-height: 20px;
+}
+
+/*MENU FILTRAR*/
+#filtrar{
+	width: 92%;
+	margin: 0 auto;
+}
+
+#filtrar ul{
+    display: block;
+    float: left;
+}
+
+#filtrar ul li{
+	float: left;
+	display: block;
+	font-family: Monteserrat, Verdana, Ariel, sans-serif;
+	color: #49494a;
+	font-size: 12px;
+	line-height: 18px;
+	cursor: pointer;
+	padding: 0px 30px;
+	margin-left: -25px;
+	margin-bottom: 10px;
+}
+
+span{
+		display: block;
+		float: right;
+		font-size: 7px;
+		padding-top: 1px;
+		margin-left: 5px;
+}
+    
+/*MENU ORDENAR*/
+#ordenar{
+	width: 92%;
+	float: left;
+	font-family: Monteserrat, Verdana, Ariel, sans-serif;
+	color: #49494a;
+	font-size: 12px;
+	line-height: 18px;
+	margin-left: 65px;
+	padding-top: -20px;
+	border-top: 1px solid #ccc;
+}
+    
+select{
+	position: absolute;
+	left: 190px;
+	float: right;
+	width: 130px;
+	height: 25px;
+	font-family: Monteserrat, Verdana, Ariel, sans-serif;
+	color: #49494a;
+	font-size: 12px;
+	line-height: 18px;
+	padding-top: -20px;
+	padding-left: 5px;
+	border-top: 0px;
+	border-left: 0px;
+}
+    
+#ordenar ul{
+	display: block;
+	float:right;
+	left: 85px;
+	margin-top: -20px;
+}
+
+#ordenar ul li a{
+	text-decoration: none;
+	color: #49494a;
+	font-size: 12px;
+	line-height: 18px;
+	font-family: Monteserrat, Verdana, Ariel, sans-serif;
+}
+
+#ordenar ul li{
+	display: block;
+	position: relative;
+	right: -20px;
+	float:right;
+	padding: 5px;
+	font-family: Monteserrat, Verdana, Ariel, sans-serif;
+	color: #49494a;
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: -5px;
+}
+
+.bordinha{
+	border: 1px solid #ccc;
+	padding: 3px;
+}
+
+/*PARTE DAS IMAGENS DOS VESTIDOS*/
+#produtos{
+	margin-top: 10px;
+	width: 100%;
+	display: block;
+	position: relative;
+	float:left;
+}
+
+#imagem1{
+	float:left;
+	display: block;
+	position: relative;
+	/*border:1px solid red;*/
+	width: 330px;
+	height: 680px;
+	margin-left: 60px;
+	margin-top: 10px;
+}
+
+#imagem2{
+	float:left;
+	display: block;
+	position: relative;
+	/*border:1px solid red;*/
+	width: 330px;
+	height: 680px;
+	margin-top: 10px;
+	left: 30px;
+}
+
+#imagem3{
+	float:left;
+	display: block;
+	position: relative;
+	/*border:1px solid green;*/
+	width: 330px;
+	height: 680px;
+	margin-top: 10px;
+	left: 60px;
+}
+
+#imagem4{
+	float:left;
+	display: block;
+	position: relative;
+	/*border:1px solid blue;*/
+	width: 330px;
+	height: 680px;
+	margin-top: 10px;
+	left: 90px;
+}
+
+.preco{
+	font-family: Oswald, sans-serif;
+	font-size: 13px;
+	line-height: 13px;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+    padding-top: 2px;
+	text-align: center;
+	cursor: pointer;
+}
+
+/* "botão flutuante" */
+#frescurinha {
+    position: fixed;
+    right: -30px;
+    top: 90%;
+    cursor: pointer;
+}
+
+
+
+
+
+#paglogin{
+	margin-top: 10px;
+	width: 100%;
+	display: block;
+	position: relative;
+	float:left;
+	background-color: white;
+}
+#paglogin1{
+	float:left;
+	display: block;
+	position: relative;
+	border:1px solid #49494a;
+	width: 330px;
+	height: 360px;
+	margin: 2% 1% 1% 15%
+}
+#paglogin2{
+	float: right;;
+	display: block;
+	position: relative;
+	border:1px solid #49494a;
+	width: 330px;
+	height: 360px;
+	margin: 2% 10% 1% 1%
+}
+.exibepublicacao{
+	float: left;
+	display: block;
+	position: relative;
+	border:1px solid #49494a;
+	width: 250px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#login-msg {
+    float: unset;
+    font-size: 1.2rem;
+}
+
+#server-msg {
+    float: unset;
+    font-size: 1.2rem;
+    padding-top: 1em;
+}
+
+
+/*RESPONSIVO PARA SMARTPHONE*/
+@media only screen and (max-width : 410px) {
+    /* TOPO */ 
+    #container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #topo{
+        height: 100px;
+        background: #f4ece1;
+    }
+
+    #menu-topo ul{
+        display: block;
+        width: 100%;
+        float: left;
+        /*border:1px solid red;*/
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    #menu-topo ul li{
+        float: left;
+    }
+
+    #menu-topo ul a {
+        display: block;
+        font-family: Oswald, sans-serif;
+        color: #643636;
+        font-size: 10px;
+        line-height: 15px;
+        text-decoration: none;
+        padding: 3px 3px;
+        letter-spacing: 0.4px;
+        margin-top: -40px;
+        margin-bottom: 35px;
+        margin-right: 	5px;
+    }
+
+    #menu-topo ul a:hover {
+        text-decoration: underline;
+    }
+
+    .topo1{
+        float: left;
+        position: absolute;
+        left: 10px;
+        margin-top: 5px;
+    }
+
+    /*PARTE DE TEXTO*/
+    #conteudo{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    p.roupas{
+        font-family: Monteserrat, Verdana, Ariel, sans-serif;
+        font-weight: lighter;
+        text-decoration: none;
+        color: #49494a;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 15px;
+        padding-left: 5px;
+        margin-left: 20px;
+    }
+
+    p.conteudo{
+        font-family: Monteserrat, Verdana, Ariel, sans-serif;
+        text-decoration: none;
+        color: #656262;
+        font-size: 10px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 8px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    /*MENU FILTRAR*/
+    #filtrar{
+        width: 92%;
+        height: 150px;
+        margin: 0 auto;
+        display: block;
+        float: left;
+        margin-left: 10px; 
+        background-image: url(imagens/busca2.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    #filtrar ul{
+        display: none;
+    }
+
+    #filtrar ul li{
+        display: none;
+    }
+
+    /*ORDENAR*/
+    #ordenar{
+        display: none;
+    }
+
+    /*ROUPAS*/
+    #produtos{
+        margin-top: 10px;
+        width: 90%;
+        display: block;
+        position: relative;
+        float:left;
+    }
+
+    #imagem1{
+        float:left;
+        display: block;
+        position: relative;
+        width: 150px;
+        height: 200px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        margin-top: -80px;
+    }
+
+    #imagem2{
+        float:left;
+        display: block;
+        position: relative;
+        width: 150px;
+        height: 200px;
+        margin-left: 155px;
+        margin-bottom: 30px;
+        margin-top: -230px;
+    }
+
+    #imagem3{
+        float:left;
+        display: block;
+        position: relative;
+        width: 150px;
+        height: 200px;
+        margin-left: -40px;
+        margin-bottom: 30px;
+        margin-top: 130px;
+    }
+
+    #imagem4{
+        float:left;
+        display: block;
+        position: relative;
+        width: 150px;
+        height: 200px;
+        margin-left: 95px;
+        margin-bottom: 30px;
+        margin-top: -230px;
+    }
+
+    .preco{
+        font-family: Oswald, sans-serif;
+        font-size: 11px;
+        line-height: 11px;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        padding-top: 2px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 1210px) and (min-width : 411px){
+    #topo{	
+        width: auto;
+        height: 100px;
+        background: #f4ece1;
+    }
+
+    #menu-topo ul{
+        width:90%;
+        float: left;
+        position: relative;
+        right: 250px;
+        margin-top: -25px;
+    }
+
+    #menu-topo ul li{
+        float: left;	
+    }
+
+    #menu-topo ul a {
+        width: auto;
+        float: left;
+        font-family: Oswald, sans-serif;
+        color: #643636;
+        font-size: 10px;
+        line-height: 30px;
+        text-decoration: none;
+    }
+
+    .topo1{
+        float: left;
+        position: relative;
+    }
+
+    .topo4{
+        float:right;
+        position: absolute;    
+    }
+
+    .topo3{
+        float:right;
+        position: absolute;
+    }
+
+    .topo2{
+        float:right;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 1320px) and (min-width : 1211px){
+    #topo{	
+        clear: both;
+        width: auto;	
+        height: 60px;
+        background: #f4ece1;
+    }
+
+    #menu-topo ul{
+        position: relative;
+        width: 100%;
+        display: block;
+        float: left;
+        left: -200px;
+    }
+
+    #menu-topo ul li{
+        float: left;	
+    }
+
+    #menu-topo ul a {
+        width: auto;
+        float: left;
+        font-family: Oswald, sans-serif;
+        color: #643636;
+        font-size: 10px;
+        line-height: 60px;
+        text-decoration: none;
+    }
+
+    #ordenar{
+        width: 92%;
+        font-family: Monteserrat, Verdana, Ariel, sans-serif;
+        color: #49494a;
+        font-size: 12px;
+        line-height: 18px;
+        padding-top: -20px;
+        border-top: 1px solid #ccc;
+    }
+
+
+}

@@ -1,0 +1,74 @@
+
+    Instalar dentro da pasta:
+
+npm install --save express
+npm install nodemon -g
+npm install --save express-handlebars
+???OU npm install --save hbs
+npm install --save body-parser
+npm install --save mongodb
+npm install --save mongoose
+
+
+npm install --save express-session
+npm install --save connect-flash
+npm install --save passport
+npm install --save passport-local
+npm install --save bcryptjs
+
+npm install nodemon -g [p atualizar sozinho em cada alteração no código]
+npm install hbs
+
+npm run dev
+>> Executar em prompts separados:
+mongod [para rodar o servidor do MongoDB]
+
+npm start
+
+
+>para ver o banco de dados do mongo:
+mongo [para acessar o shell do mongo]
+show databases; [aparece a database app que eu criei]
+use projetoweb2 [entra na base que eu criei]
+show collections; [para ver as collections(tabelas) cadastradas]
+db.usuarios.find() [exibe o que foi cadastrado]
+//nao fazer isso: db.dropDatabase() [apagar um banco de dados existente]
+db.usuarios.remove({}) [Apagar conteúdo da coleção, linhas da tabela. Se nenhum atributo for informado todos os dados da coleção são excluídos]
+db.usuarios.insert ({ "nome" : "zaza", "email" : "za@za", "senha" : 459, "nascimento" : 459 })
+<
+
+
+::Deploy na Heroku (serviço de hospedagem de aplicação web )::
+npm start
+
+
+
+
+-*-*-*-*-*-*-*-*-
+npm: repositório de pacotes
+express: framework orientado à rotas
+nodemon: para não precisar ficar reiniciando o servidor à cada alteração
+handlebars: é um template Engine que dá muitas funcionalidades ao html
+	(possibilita usar estruturas de repetição, estruturas condicionais
+	e exibir dados que vem do arquivo de back-end no seu arquivo html)
+body-parser: receber dados de qualquer formulário dentro do express
+mongodb: banco de dados com estrutura orientado a documentos.
+	salva numa collection -> conjunto de documentos do mesmo tipo.
+	utiliza a estrutura de objetos de JavaScript(JSON).
+	(o MySQL é estruturado em tabelas)
+mongoose: módulo que permite trabalhar com o mongodb no Node
+bootstrap: framework html
+	integrar arquivos estáticos (css,js,jQuery,imagens) na
+	aplicação express
+
+mLab: hospedar online bando de dados do mongo
+
+
+
+**mongo db Atlas - não está conectando (antes era mLab)
+>>heroku open
+
+
+
+ver:
+mongoURI: "mongodb://localhost/projetoweb2"

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+    <title> Resultado da Pesquisa | Antix </title>
+    <link rel="icon" href="/images/logo.png" />
+    <link rel="stylesheet" href="/stylesheets/main.css" type="text/css" media="screen" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div id="container2">
+        <div class="container">
+            <div class="header">
+                <div class="pesquisa"></br>
+                    <form action="pesquisa" method="POST">
+                        <input type="text" id="pesq" name="pesq" maxlength="200" size="80%" placeholder="Encontrar publicações sobre..." height="250px"></input>
+                        <input type="submit" value="Pesquisar">
+                    </form>
+                </div>
+                <div class="menu">
+                    <label for="nome_usuario"> Resultado da pesquisa: </label>
+                </div>
+            </div></br>
+            
+            {{#each postagens}}
+                <div class="exibepublicacao"></br>
+                    <div class="conteudo">
+                        {{this.texto}}
+                        </br></br>
+                        {{else}}
+                        <p> Não foram encontradas publicações para a pesquisa, tente buscar por outro termo </p>
+                    </div></br>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</body>
+
+</html>

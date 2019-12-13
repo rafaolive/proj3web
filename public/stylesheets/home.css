@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+body{
+	background-color: #f4ece1;
+	font-family: Oswald, sans-serif;
+	color: #643636;
+	align-content: center;
+	text-align: center;
+}
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+	height:100%;
+}
+
+#topo{	
+	width: 100%;	
+	margin: 0 auto;
+	height: 60px;
+	background: #f4ece1;
+}
+
+#menu-topo ul{
+	display: block;
+	clear: both;
+	float: left;
+	margin-top:-65px;
+	margin-left: 400px;
+}
+
+#menu-topo ul li{
+	float: left;
+}
+
+#menu-topo ul a {
+	display: block;
+	font-family: Oswald, sans-serif;
+	color: #643636;
+	font-size: 14px;
+	line-height: 60px;
+	text-decoration: none;
+	padding: 0px 10px;
+	letter-spacing: 0.5px;
+}
+
+#menu-topo ul a:hover {
+	text-decoration: underline;
+}
+
+.topo1{
+	float: left;
+	position: absolute;
+	left: 60px;
+	margin-top: 5px;
+}
+
+.topo4{
+	float:right;
+	position: absolute;
+	right: 40px;
+}
+
+.topo3{
+	float:right;
+	position: absolute;
+	right: 72px;
+	top: -1px;
+}
+
+.topo2{
+	float:right;
+	position: relative;
+	right: 105px;
+}
+
+
+
+#paglogin{
+	margin-top: 10px;
+	width: 100%;
+	display: block;
+	position: relative;
+	float:left;
+	background-color: white;
+}
+
+#paglogin1{
+	float:left;
+	display: block;
+	position: relative;
+	border:1px solid #49494a;
+	width: 330px;
+	height: 360px;
+	margin: 2% 1% 1% 15%
+}
+
+#paglogin2{
+	float: right;;
+	display: block;
+	position: relative;
+	border:1px solid #49494a;
+	width: 330px;
+	height: 360px;
+	margin: 2% 10% 1% 1%
+}
+
+.exibepublicacao{
+	float: left;
+	display: block;
+	position: relative;
+	border:1px solid #49494a;
+	width: 250px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
